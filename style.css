@@ -69,6 +69,21 @@ section {
     color: var(--main-color);
 }
 
+.navbar .btn {
+    padding: 1rem 2rem;
+    background: var(--main-color);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    font-size: 1.6rem;
+    color: var(--second-bg-color);
+    margin-left: 2rem; /* Menambahkan jarak antara tautan */
+    transition: .5s ease;
+}
+
+.navbar .btn:hover {
+    box-shadow: none;
+}
+
 #menu-icon {
     font-size: 3.6rem;
     color: var(--text-color);
